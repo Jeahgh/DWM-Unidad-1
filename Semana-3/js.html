@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <!-- <script>
+
+        // cosas basicas de JS
+        console.log("Hola Mundo");
+        prompt("Hola, ¿cómo te llamas?");
+        alert("holaaasda");
+
+
+       let edad = prompt("¿Cuál es tu edad?");
+       console.log(edad);
+
+       if(edad >= 18){
+        alert("Eres mayor de edad");
+       } else {
+        alert("Eres menor de edad");
+       }
+
+
+       let num1 = parseInt(prompt("Ingresa el primer número"));
+       let num2 = parseInt(prompt("Ingresa el segundo número"));
+
+        let suma = num1 + num2;
+            alert("La suma es: " + suma);
+
+        let resta = num1 - num2;
+            alert("La resta es: " + resta);
+
+        let multiplicacion = num1 * num2;
+            alert("La multiplicación es: " + multiplicacion);
+
+        let division = num1 / num2;
+            alert("La división es: " + division);
+            
+    </script>   -->
+    
+    <h1 id="Texto">Texto de prueba</h1>
+    <button id="Boton">Enviar</button>
+
+    <script>
+        let boton = document.getElementById("Boton");
+        let texto = document.getElementById("Texto");
+
+        boton.addEventListener("click", function(){
+            texto.innerHTML = "Texto cambiado";
+            texto.style.color = "red";
+        });
+    </script>
+
+</body>
+</html>
